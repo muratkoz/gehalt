@@ -1,0 +1,92 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-11T16:16:13.688Z",
+        "line": 4,
+        "name": "Verify that user should able to see the calculation of the net salary",
+        "description": "",
+        "id": "brutto-nettogehalt-berechnen;verify-that-user-should-able-to-see-the-calculation-of-the-net-salary",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "the user is on the main page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user logs in with valid credentials",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user navigates to \"Brutto Netto Rechner\" menu",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user inputs the requried data to calculate salary",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user should able to see Monatlich and Jährlich net salary calculation as a result",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user should able to see the \"Software Test Engineer\" Job offers 15 km around \"Leer\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@brutto"
+          }
+        ]
+      }
+    ],
+    "name": "Brutto-Nettogehalt berechnen",
+    "description": "",
+    "id": "brutto-nettogehalt-berechnen",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Brutto-NettogehaltBerechnen.feature",
+    "tags": [
+      {
+        "name": "@brutto",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
