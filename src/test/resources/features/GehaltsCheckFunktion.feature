@@ -1,3 +1,4 @@
+@gehalt
 Feature: GehaltsCheck Funktion
 
 Scenario: Verify that as a user I should be able to send GehaltsCheck results to an Email account

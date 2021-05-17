@@ -1,3 +1,4 @@
+@login
 Feature: Login functionality
 
   Background:
@@ -5,7 +6,7 @@ Feature: Login functionality
 
   Scenario: Verify that only authorized users should be able to login to the application
     When user logs in with valid credentials
-    Then "Ihr GEHALT.de Profil" header text should be displayed
+    Then "https://www.gehalt.de/profile" header text should be displayed
 
 
   Scenario Outline: Verify that users should not able to login with invalid credentials
@@ -15,6 +16,6 @@ Feature: Login functionality
 
     Examples:
       |username             |password     |error message                                            |
-      |fake@mail.de         |233795Ssk.   |Ihre E-Mail-Adresse oder Ihr Passwort sind nicht korrekt |
-      |baskara2@hotmail.com |wrong        |Ihre E-Mail-Adresse oder Ihr Passwort sind nicht korrekt |
-      |fake@mail.de         |wrong        |Ihre E-Mail-Adresse oder Ihr Passwort sind nicht korrekt |
+      |fake@mail.de         |Password1   |Ihre E-Mail-Adresse oder Ihr Passwort sind nicht korrekt |
+      |fake2@hotmail.com |wrongpass        |Ihre E-Mail-Adresse oder Ihr Passwort sind nicht korrekt |
+      |fake3@mail.com         |wrong       |Ihre E-Mail-Adresse oder Ihr Passwort sind nicht korrekt |

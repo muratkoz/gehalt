@@ -10,12 +10,10 @@ import org.junit.runner.RunWith;
                 "html:target/default-html-reports"},
         features = "src/test/resources/features",
         glue = "de/gehalt/step_definitions",
-        dryRun = true,
-        tags = "@brutto"
+        dryRun = false,
+        tags = "@login"
 )
 
 public class CukesRunner {
-
-
 
 }
